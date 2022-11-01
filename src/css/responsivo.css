@@ -1,4 +1,10 @@
-@media (max-width: 620px) {
+@media (max-width: 393px) {
+    .cartao.selecionado{
+        width: 283px;
+        height: 480px;
+        margin: auto;
+    }
+    
     .pokemon-slider {
         padding: 0 15px;
         gap: 10px;
@@ -29,5 +35,10 @@
 
     .cartao .informacoes .vida {
         font-size: 14px;
+    }
+    
+    .cartao .descricao {
+        height: 156.5px;
+        width: 259px;
     }
 }
